@@ -37,8 +37,8 @@ class MainActivity : ComponentActivity() {
                         ) {
                             Button(onClick = {
                                 navController.navigate(ScreenB(
-                                    name = null,
-                                    age = 25
+                                    name = "Shekhar",
+                                    age = 24
                                 ))
                             }) {
                                 Text(text = "Go to screen B")
